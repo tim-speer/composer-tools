@@ -1,5 +1,10 @@
 public class Note {
   private String name;
+  private char letter;
+  private char accidental;
+  private int octave;
+  private int num;
+  private int midi_value;
 
   public static String flat_sym() {
     return Character.toString(0x266D);
