@@ -39,8 +39,23 @@ public class Note {
     }
   }
 
-  public String  get_letter() {
+  public String get_letter() {
     return letter;
   }
 
+  public String get_accidental() {
+    return accidental;
+  }
+
+  public int get_octave() {
+    return octave;
+  }
+
+  public int get_pitch_class() {
+    return pitch_class;
+  }
+
+  public int get_midi_value() {
+    return midi_value;
+  }
 }
